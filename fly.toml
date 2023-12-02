@@ -1,7 +1,9 @@
-app = "irrational-page-0431"
+app = "irrational-page"
+primary_region = "lax"
 kill_signal = "SIGINT"
 kill_timeout = 5
 processes = [ ]
+
 
 [experimental]
 allowed_public_ports = [ ]
