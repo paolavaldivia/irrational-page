@@ -12,12 +12,12 @@ export default function Index() {
       <nav className="flex justify-center px-16 py-4">
         <div className="absolute inset-0 bg-black opacity-10"></div>
         <div className="flex justify-between items-center max-w-screen-md mx-auto w-full">
-          <Link
-            to="/about-me"
+          <a
+            href="/files/Valdivia_2024.pdf"
             className="text-xl mx-2 px-4 py-2 border-2 border-white rounded-lg text-gray-800 bg-opacity-50 bg-white hover:bg-desert-sand hover:text-white transition-transform duration-300 ease-in-out transform hover:-translate-y-1"
           >
             About Me
-          </Link>
+          </a>
           <Link
             to="/code-fun"
             className="text-xl mx-2 px-4 py-2 border-2 border-white rounded-lg text-gray-800 bg-opacity-50 bg-white hover:bg-dusk-orange hover:text-white transition-transform duration-300 ease-in-out transform hover:-translate-y-1"
@@ -48,7 +48,7 @@ export default function Index() {
             Irrational Page
           </h1>
           <p className="mt-4 text-4xl text-gray-700 font-light">by Paola V</p>
-          <button className="mt-10 px-8 py-4 bg-gray-700 bg-opacity-70 text-white font-semibold rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out hover:bg-gray-600">
+          <button className="mt-10 my-10 px-8 py-4 bg-gray-700 bg-opacity-70 text-white font-semibold rounded-lg shadow-lg hover:shadow-2xl transition duration-300 ease-in-out hover:bg-gray-600">
             Explore
           </button>
         </div>
